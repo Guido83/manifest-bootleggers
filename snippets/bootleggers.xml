@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  
+  <remote  name="Guido83"
+           fetch="https://github.com/Guido83"
+           revision="pasta" />
 
   <project path="manifest" name="manifest" remote="bootleggers" />
   <project path="art" name="art" groups="pdk" remote="bootleggers" />
@@ -22,7 +26,7 @@
   <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" groups="pdk,tradefed" remote="bootleggers" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="bootleggers" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="bootleggers" />
-  <project path="frameworks/base" name="frameworks_base" remote="bootleggers" />
+  <project path="frameworks/base" name="frameworks_base-bootleggers" remote="Guido83" />
   <project path="frameworks/bootleggers" name="frameworks_bootleggers" remote="bootleggers" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="bootleggers" />
   <project path="frameworks/opt/slimrecent" name="frameworks_opt_slimrecent" groups="pdk" remote="bootleggers" />
